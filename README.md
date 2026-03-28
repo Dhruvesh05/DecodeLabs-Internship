@@ -1,66 +1,75 @@
-DecodeLabs Internship : Full Stack Project
-Overview
+## Tech Stack
 
-This repository contains a full stack application built as part of the DecodeLabs Internship.
-The project focuses on building a complete system starting from a responsive user interface to backend APIs and database integration.
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
 
-It demonstrates how frontend, backend, and database layers work together in a real-world application.
+### Backend
+- Node.js  
+- Express.js  
 
-Tech Stack
+### Database
+- PostgreSQL  
 
-Frontend
+### Tools & Utilities
+- Git  
+- GitHub  
+- Postman  
 
-HTML
-CSS
-JavaScript
+---
 
-Backend
+## Repository Structure
 
-Node.js
-Express.js
 
-Database
-
-PostgreSQL
-
-Tools & Utilities
-
-Git
-GitHub
-Postman
-Repository Structure
 DecodeLabs-Internship/
 │
-├── project-1-responsive-ui/     # Frontend implementation
-├── project-2-backend-api/       # Backend + Database integration
-Frontend — Responsive UI
+├── project-1-responsive-ui/ # Frontend implementation
+├── project-2-backend-api/ # Backend + Database integration
+
+
+---
+
+## Frontend — Responsive UI
 
 The frontend is designed as a simple e-commerce cart interface with a focus on layout and responsiveness.
 
-Key Functionalities
-Structured navigation bar
-Product listing with quantity controls
-Order summary section
-Clean layout with responsive behavior across devices
-Running the Frontend
+### Key Functionalities
+- Structured navigation bar  
+- Product listing with quantity controls  
+- Order summary section  
+- Clean layout with responsive behavior across devices  
 
-Open the folder:
+### Running the Frontend
+
+1. Open the folder:
 
 project-1-responsive-ui
 
-Launch:
+2. Launch:
 
 index.html
-View it in any browser
-Backend — REST API
+
+3. View it in any browser  
+
+---
+
+## Backend — REST API
 
 The backend is built using Express.js and exposes endpoints to manage product data.
 
-Available Endpoints
-Method	Endpoint	Description
-GET	/products	Fetch all products
-POST	/products	Add a new product
-Running the Server
+### Available Endpoints
+
+| Method | Endpoint   | Description          |
+|--------|------------|----------------------|
+| GET    | /products  | Fetch all products   |
+| POST   | /products  | Add a new product    |
+
+---
+
+## Running the Server
+
+```bash
 cd project-2-backend-api
 node server.js
 
@@ -82,7 +91,9 @@ Using Postman:
 
 Method: POST
 URL: http://localhost:5000/products
+
 Body (JSON):
+
 {
   "name": "Sample Product",
   "price": 500
@@ -122,7 +133,7 @@ Error Handling
 
 Basic error handling is implemented:
 
-If backend is down → frontend shows error message
+If backend is down, frontend shows an error message
 Prevents UI from breaking on failed requests
 What I Learned
 Building REST APIs using Express
