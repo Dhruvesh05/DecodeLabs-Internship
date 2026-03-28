@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVault - Premium Electronics Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%232563eb'>⚡</text></svg>">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span class="logo-icon">⚡</span>
+            <h1 class="logo-text">TechVault</h1>
+            <span class="tagline">Premium Tech Store</span>
+        </div>
+
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#products" class="nav-link">Products</a></li>
+            <li><a href="#deals" class="nav-link">Deals</a></li>
+            <li><a href="#support" class="nav-link">Support</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <div class="search-box">
+                <input type="text" placeholder="Search products..." class="search-input">
+                <button class="search-btn">🔍</button>
+            </div>
+            <button class="auth-btn">Login</button>
+        </div>
+    </nav>
+</header>
+
+<main class="main-content">
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h2>Your Cart</h2>
+            <p>Premium technology at your fingertips</p>
+        </div>
+    </section>
+
+    <section class="checkout-layout">
+
+        <div class="products-section">
+            <h3 class="section-title">Items in Your Cart</h3>
+            <div class="product-list">
+
+                <div class="product-card light-card">
+                    <div class="product-image-container">
+                        <img src="assets/product1.jpg" alt="Wireless Headphones" class="product-image">
+                        <span class="product-badge">Premium</span>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name">Wireless Headphones Pro</h4>
+                        <p class="product-description">Active noise cancellation with 30-hour battery life.</p>
+                        <p class="product-price">₹ 8,999</p>
+
+                        <div class="quantity-controls">
+                            <button class="qty-btn decrease-btn" aria-label="Decrease quantity">−</button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn increase-btn" aria-label="Increase quantity">+</button>
+                        </div>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </div>
+
+                <div class="product-card dark-card">
+                    <div class="product-image-container">
+                        <img src="assets/product2.jpg" alt="Smart Watch" class="product-image">
+                        <span class="product-badge">Bestseller</span>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name">Smart Watch Ultra</h4>
+                        <p class="product-description">Advanced fitness tracking with AMOLED display and GPS.</p>
+                        <p class="product-price">₹ 12,499</p>
+
+                        <div class="quantity-controls">
+                            <button class="qty-btn decrease-btn" aria-label="Decrease quantity">−</button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn increase-btn" aria-label="Increase quantity">+</button>
+                        </div>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </div>
+
+                <div class="product-card light-card">
+                    <div class="product-image-container">
+                        <img src="assets/product3.jpg" alt="USB-C Cable" class="product-image">
+                        <span class="product-badge">Hot Deal</span>
+                    </div>
+                    <div class="product-info">
+                        <h4 class="product-name">Fast Charging Cable Kit</h4>
+                        <p class="product-description">100W USB-C cables with premium braided design. Pack of 3.</p>
+                        <p class="product-price">₹ 1,299</p>
+
+                        <div class="quantity-controls">
+                            <button class="qty-btn decrease-btn" aria-label="Decrease quantity">−</button>
+                            <span class="qty-value">1</span>
+                            <button class="qty-btn increase-btn" aria-label="Increase quantity">+</button>
+                        </div>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="order-panel">
+            <h3 class="panel-title">Order Details</h3>
+
+            <div class="price-breakdown">
+                <div class="breakdown-row">
+                    <span class="label">Subtotal</span>
+                    <span class="value">₹ 22,797</span>
+                </div>
+                <div class="breakdown-row">
+                    <span class="label">Shipping</span>
+                    <span class="value free-shipping">FREE</span>
+                </div>
+                <div class="breakdown-row highlight">
+                    <span class="label tax-label">Tax</span>
+                    <span class="value tax-value">₹ 2,280</span>
+                </div>
+            </div>
+
+            <div class="price-separator"></div>
+
+            <div class="total-section">
+                <span class="total-label">Total Amount</span>
+                <span class="total-amount">₹ 25,077</span>
+            </div>
+
+            <button class="checkout-primary-btn">Proceed to Secure Checkout</button>
+            <button class="continue-shopping-btn">Continue Shopping</button>
+
+            <div class="security-badges">
+                <span class="badge">🔒 100% Secure</span>
+                <span class="badge">📦 Free Shipping</span>
+                <span class="badge">↩️ Easy Returns</span>
+            </div>
+        </div>
+
+    </section>
+
+</main>
+            <p class="thank-msg">Thank you for shopping with us ❤️</p>
+        </div>
+
+    </section>
+
+    <section class="features">
+        <div>
+            <h4>Free Shipping</h4>
+            <p>On orders above Rs. 500</p>
+        </div>
+        <div>
+            <h4>Secure Payment</h4>
+            <p>Trusted payment gateway</p>
+        </div>
+        <div>
+            <h4>24/7 Support</h4>
+            <p>We are always here to help</p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 BeautyShop. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
